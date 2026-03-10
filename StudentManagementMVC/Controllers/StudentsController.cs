@@ -50,7 +50,7 @@ namespace StudentManagementMVC.Controllers
             return View();
         }
 
-        // ✅ CREATE (POST)
+        // ✅ CREATE (POST) using following Post Api
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Student student)
