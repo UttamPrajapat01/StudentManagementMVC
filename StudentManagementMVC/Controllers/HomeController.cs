@@ -4,6 +4,8 @@ using StudentManagementMVC.Models;
 
 
 // This namespace using for the StudentManagementMVC
+// This used after the StudentManagementmvc Execution 
+
 namespace StudentManagementMVC.Controllers
 {
     public class HomeController : Controller
