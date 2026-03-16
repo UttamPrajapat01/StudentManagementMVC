@@ -74,7 +74,7 @@ namespace StudentManagementMVC.Controllers
 
             return View(student);
         }
-
+        // you can manage this api EDIT [POST]
         // ✅ EDIT (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
