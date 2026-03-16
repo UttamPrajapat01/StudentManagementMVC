@@ -30,7 +30,7 @@ namespace StudentManagementMVC.Controllers
 
             return View(await students.ToListAsync());
         }
-
+        // This is a Details API
         // ✅ DETAILS
         public async Task<IActionResult> Details(int? id)
         {
@@ -38,7 +38,7 @@ namespace StudentManagementMVC.Controllers
 
             var student = await _context.Students
                 .FirstOrDefaultAsync(m => m.Id == id);
-
+            
             if (student == null) return NotFound();
 
             return View(student);
