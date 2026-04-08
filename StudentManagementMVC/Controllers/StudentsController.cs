@@ -127,7 +127,7 @@ namespace StudentManagementMVC.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-
+        // This is  the helper method for the studentexits method
         // ✅ Helper Method
         private bool StudentExists(int id)
         {
