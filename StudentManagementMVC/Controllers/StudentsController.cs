@@ -30,7 +30,7 @@ namespace StudentManagementMVC.Controllers
 
             return View(await students.ToListAsync());
         }
-        // This is a Details API
+        
         // ✅ DETAILS
         public async Task<IActionResult> Details(int? id)
         {
