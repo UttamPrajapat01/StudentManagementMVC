@@ -9,7 +9,7 @@ namespace StudentManagementMVC.Controllers
     {
         private readonly AppDbContext _context;
 
-        // Dependency Injection
+       
         public StudentsController(AppDbContext context)
         {
             _context = context;
