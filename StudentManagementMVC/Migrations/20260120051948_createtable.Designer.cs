@@ -16,7 +16,7 @@ namespace StudentManagementMVC.Migrations
     [Migration("20260120051948_createtable")]
     partial class CreateTable
     {
-        /// <inheritdoc />
+        
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
