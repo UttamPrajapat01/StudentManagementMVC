@@ -5,7 +5,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace StudentManagementMVC.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class CreateTable : Migration
     {
         /// <inheritdoc />
